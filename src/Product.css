@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.product {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+
+.add-product {
+    margin-bottom: 40px;
+}
+
+.add-product h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+.add-product form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-product div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus state */
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Add Product Button */
+button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #357ab7;
+}
+
+/* View Products Section */
+.view-products h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+.view-products p {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+}
+
+.view-products ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.view-products li {
+    background-color: #f0f4f7;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-products li strong {
+    font-weight: bold;
+}
+
+.view-products li span {
+    font-size: 14px;
+    color: #888;
+}
